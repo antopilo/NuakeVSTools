@@ -4,7 +4,6 @@ namespace $rootnamespace$
 {
 	public class $safeitemrootname$ : Entity
 	{
-
 		/// <summary>
 		/// OnInit is called once when the entity is instantiated
 		/// </summary>

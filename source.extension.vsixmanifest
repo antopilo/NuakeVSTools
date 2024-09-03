@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="NuakeVSTools.e2945a13-4f0a-4411-b5d8-68361240dd1f" Version="1.0" Language="en-US" Publisher="Antoine Pilote" />
         <DisplayName>NuakeVSTools</DisplayName>
-        <Description xml:space="preserve">Nuake Visual Studio ToolsNuake Visual Studio Tools</Description>
+        <Description xml:space="preserve">Nuake Visual Studio Tools</Description>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
@@ -19,5 +19,7 @@
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="NuakeCSharpTemplate" d:TargetPath="|NuakeCSharpTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="NuakeCSharpPointEntityTemplate" d:TargetPath="|NuakeCSharpPointEntityTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="NuakeCSharpBrushEntityTemplate" d:TargetPath="|NuakeCSharpBrushEntityTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
     </Assets>
 </PackageManifest>

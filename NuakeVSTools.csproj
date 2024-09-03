@@ -64,6 +64,20 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.9.3184" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NuakeCSharpBrushEntityTemplate\NuakeCSharpBrushEntityTemplate.csproj">
+      <Project>{13c86f18-c049-4685-bbc1-f381588b17e3}</Project>
+      <Name>NuakeCSharpBrushEntityTemplate</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="NuakeCSharpPointEntityTemplate\NuakeCSharpPointEntityTemplate.csproj">
+      <Project>{6c73d2cf-7e09-4ba7-9541-65154805746f}</Project>
+      <Name>NuakeCSharpPointEntityTemplate</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="NuakeCSharpTemplate\NuakeCSharpTemplate.csproj">
       <Project>{C7610E94-F3F2-4AB6-800F-72AF595ECD17}</Project>
       <Name>NuakeCSharpTemplate</Name>
