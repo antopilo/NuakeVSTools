@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="NuakeVSTools.e2945a13-4f0a-4411-b5d8-68361240dd1f" Version="1.0" Language="en-US" Publisher="Moment Factory" />
+        <Identity Id="NuakeVSTools.e2945a13-4f0a-4411-b5d8-68361240dd1f" Version="1.0" Language="en-US" Publisher="Antoine Pilote" />
         <DisplayName>NuakeVSTools</DisplayName>
-        <Description>Empty VSIX Project.</Description>
+        <Description xml:space="preserve">Nuake Visual Studio ToolsNuake Visual Studio Tools</Description>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">

@@ -1,5 +1,4 @@
-﻿using Nuake;
-using System;
+﻿using Nuake.Net;
 
 namespace $rootnamespace$
 {

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Nuake Entity Script</Name>
-    <Description>An empty C# script that inherits from Nuakes Entity class</Description>
-    <Icon>NuakeCSharpTemplate.ico</Icon>
-    <TemplateID>a83bb3b4-109a-42f6-b7d0-3f8226d14200</TemplateID>
+    <Name>NuakeCSharpPointEntityTemplate</Name>
+    <Description>NuakeCSharpPointEntityTemplate</Description>
+    <Icon>NuakeCSharpPointEntityTemplate.ico</Icon>
+    <TemplateID>a44477de-02a7-46f1-af76-585f1341fa5a</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
@@ -16,6 +16,6 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true">ScriptEntity.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
